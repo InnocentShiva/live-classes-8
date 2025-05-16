@@ -5,7 +5,6 @@ services:
     ports:
     - "5000:5000"
   nginxapp21:
-    image: nginx:v3
+    image: nginxapp:v2
     ports:
     - "8086:80"
-    
